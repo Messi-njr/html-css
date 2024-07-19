@@ -68,7 +68,7 @@ nav > a {
     padding: 4px;
     text-decoration: none;
     font-weight: bold;
-    border-radius: 9px;
+    border-radius: 5px;
     transition-duration: .5s;
 }
 nav > a:hover {
