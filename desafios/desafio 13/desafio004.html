@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>desafio004</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        table {
+            border: 1px solid black;
+            border-collapse: collapse;
+            width: 600px;
+        }
+        tr, td, th{
+            border: 1px solid black;
+            padding: 10px;
+            text-align: center;
+        }
+        .cinza {
+            background-color: grey;
+            color: white;
+        }
+    </style>    
+</head>
+<body>
+    <h1>Desafio 13 part 4</h1>
+    <table>
+        <thead>
+            <tr>
+                <th scope="col" rowspan="3"  class="cinza">Área</th> <!-- Abre aqui 3 linhas -->
+                <th scope="col" rowspan="2" class="cinza">Disciplina</th>
+                <th scope="colgroup" colspan="2" class="cinza">Notas</th>
+                <th scope="col" rowspan="2" class="cinza">Média</th>
+            </tr>
+            <tr>
+                <th class="cinza">Nota 1</th>
+                <th class="cinza">Nota 2</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th rowspan="4">Exatas</th>
+                <td>Álgebra</td>
+                <td>0.0</td>
+                <td>0.0</td>
+                <td>0.0</td>
+            </tr>
+            
+            <tr>
+                <td>Geometria</td>
+                <td>0.0</td>
+                <td>0.0</td>
+                <td>0.0</td>
+            </tr>
+            <tr>
+                <td>Fisica</td>
+                <td>0.0</td>
+                <td>0.0</td>
+                <td>0.0</td>
+            </tr>
+            <tr>
+                <td>Biologia</td>
+                <td>0.0</td>
+                <td>0.0</td>
+                <td>0.0</td>
+            </tr>
+            <tr>
+                <th colspan="4" scope="row" style="text-align: left;" class="cinza">Medias de Exatas</th>
+                <td class="cinza">0.0</td>
+            </tr>
+            <tr>
+                <th rowspan="2">Humanas</th>
+                <td>Historia</td>
+                <td>0.0</td>
+                <td>0.0</td>
+                <td>0.0</td>
+            </tr>
+            <tr>
+                <td>Geografia</td>
+                <td>0.0</td>
+                <td>0.0</td>
+                <td>0.0</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th colspan="4" scope="row" class="cinza">Média Humanas</th>
+                <td class="cinza">0.0</td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>
